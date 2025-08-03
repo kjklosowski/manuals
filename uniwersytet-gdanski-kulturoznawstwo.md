@@ -67,8 +67,8 @@ Style korzystają z podstawowej logiki sortowania – najpierw po nazwiskach aut
 
 Może to jednak nieść za sobą nieoczywiste konsekwencje:
 1. Przy cytowaniu filmów:
-   - Ponieważ zmienne ````reżyser```` i ````producent```` nie są tym samym, co zmienna ````autor````, a filmy są często dziełami zbiorowymi, wszystkie one będą sortowane po <b>tytułach</b> na samym końcu bibliografii (dopiero po autorach):
-      - Jest to jednak problematyczne przy cytowaniu filmów na YouTube, których autorzy są już raczej ich autorami. Jeśli chcesz, by filmy na YouTube były sortowane razem z autorami, w menedżerze bibliografii określ je jako zwykła strona internetowa, a nie film.
+   - Ponieważ zmienne ````reżyser```` i ````producent```` nie są tym samym, co zmienna ````autor````, a filmy są często dziełami zbiorowymi, wszystkie one są sortowane po <b>tytułach</b> na samym końcu bibliografii (dopiero po autorach):
+      - Jest to jednak problematyczne przy cytowaniu filmów na YouTube, których autorzy są już raczej autorami. Jeśli chcesz, by filmy na YouTube były sortowane razem z autorami, w menedżerze bibliografii określ je jako zwykła strona internetowa, a nie film.
 
 ### 4. Łacińskie i polskie skróty
 Domyślnie używane są <i>italizowane</i> skróty <b>łacińskie</b>.
