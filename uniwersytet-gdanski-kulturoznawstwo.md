@@ -36,3 +36,28 @@ Taka edycja, choć wymaga oczywiście czasu, jest o całe rzędy wielkości bard
 
 Do wszelkich modyfikacji autor poleca [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/), który umożliwia edycję w sposób wizualny, minimalizując konieczność własnoręcznego pisania kodu.
 Style wydane są licencji [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). <b>Kluczowe jest respektowanie postanowień tej licencji!</b>
+
+Poniższa lista zawiera elementy, które najczęściej mogą wymagać zmian – wraz z instrukcjami, jak tych zmian dokonać samodzielnie.
+
+<b>Autor zachęca do dalszego rozwijania tej listy, jeżeli nowe kwestie zostaną zauważone.</b>
+### Uwagi
+#### 1. Łacińskie, a polskie skróty
+Domyślnie używane są <i>italizowane</i> skróty <b>łacińskie</b>.
+
+Aby to zmienić, w sekcji ````Advanced```` idź do ````Locale -> Terms```` i wprowadź pożądane wartości tekstowe we wszystkich polach ````Term````.
+
+Opcje odpowiadające za <i>italizowanie</i> są rozsiane w kilku miejscach – należy zmienić je wszystkie:
+
+1. W sekcji ````Inline Citations````:
+   - Idź do ````If first -> Else-if motion_picture -> If director -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````If first -> Else-if motion_picture -> If producer -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````If first -> Else-if song -> If composer -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````Else-If ibid-with-locator -> ibid (term)```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````Else-If ibid -> ibid (term)```` i zaznacz/odznacz <i>````I````</i>.
+2. W sekcji ````Bibliography````:
+   - Idź do ````Else-if motion_picture -> If director -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````Else-if motion_picture -> If producer -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - Idź do ````Else-if song -> If composer -> Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>.
+3. W sekcji ````Macros````:
+   - W makrach: ````author````, ````author-bibliography````, ````editor-translator````, ````editor-translator-bibliography```` idź do ````Names -> Et-al```` i zaznacz/odznacz <i>````I````</i>,
+   - W makrze ````title-short```` idź do ````op-cit (term)```` i zaznacz/odznacz <i>````I````</i>.
