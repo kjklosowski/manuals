@@ -3,8 +3,10 @@
 ## Informacje podstawowe
 Style CSL dla Kulturoznawstwa Uniwersytetu Gdańskiego jako pierwsze polskie style w bazie Citation Style Language nadają się w pełni do wykorzystania w humanistyce współczesnej/cyfrowej.
 Opracowane są na podstawie [standardów redakcyjnych kierunku](https://fil.ug.edu.pl/sites/fil.ug.edu.pl/files/_nodes/strona/71884/files/kult._prace_standardy_redakcyjne_2.pdf).
+
 Przygotowane są przede wszystkim dla osób studenckich korzystających z menedżerów bibliografii i piszących w oparciu o standardy redakcyjne tego kierunku.
 Mogą cytować dla gry wideo, strony internetowe, posty w mediach społecznościowych, muzykę, filmy, seriale i inne.
+
 Mogą być one także zaczątkiem innych styli dla polskiej humanistyki współczesnej/cyfrowej.
 
 ## Wersje i zachowanie
