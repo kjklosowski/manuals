@@ -55,7 +55,7 @@ Jeśli potrzebujesz tych skrótów:
    - Idź do ````If first -> Else-if motion_picture -> If director -> Names````,
    - Idź do ````If first -> Else-if motion_picture -> If producer -> Names````.
 3. <b>We wszystkich tych miejscach</b>:
-   - Używając ````+````, dodaj zmienną ````Label````, przenieś ją na samą górę drzewa ````Names````, ````suffix```` ustaw na ```` ```` (spacja), a zmienną ````form```` ustaw na ````short```` lub ````long```` (są też inne możliwe konfiguracje).
+   - Używając ````+````, dodaj zmienną ````Label````, przenieś ją na samą górę drzewa ````Names````, ustaw opcję ````suffix```` na ```` ```` (spacja), a ````form```` na ````short```` lub ````long```` (są też inne możliwe konfiguracje).
 
 Pamiętaj, aby w takim przypadku filmy na YouTube w menedżerze bibliografii określić jako zwykła strona internetowa, a nie film!
   
@@ -111,9 +111,9 @@ Aby zmienić to zachowanie, musisz zmienić wartość dwóch zmiennych w kilku m
    - Idź do ````If first -> Else-if song -> If composer -> Names -> Name````.
 3. W sekcji ````Macros````:
    - W makrach: ````author````, ````author-bibliography````, ````editor-translator````, ````editor-translator-bibliography```` idź do ````Names -> Name````.
-4. <b>We wszystkich tych miejscach znajdziesz dwie zmienne</b>:
-   - Zmienna ````initialize```` odpowiada za skracanie imienia – ustaw na ````true```` lub ````false````,
-   - Zmienna ````name-as-sort-order```` odpowiada za kolejność:
+4. <b>We wszystkich tych miejscach znajdziesz dwie opcje</b>:
+   - Opcja ````initialize```` odpowiada za skracanie imienia – ustaw na ````true```` lub ````false````,
+   - Opcja ````name-as-sort-order```` odpowiada za kolejność:
       - Imię i nazwisko: ````name-as-sort-order```` ustaw na ```` ```` (spacja), a ````sort-separator```` na ````, ```` (przecinek i spacja),
       - Nazwisko i imię: ````name-as-sort-order```` ustaw na ````all````, a ````sort-separator```` na ```` ```` (spacja).
 
@@ -126,8 +126,7 @@ Jeśli potrzebujesz tego zachowania:
 1. W sekcji ````Macros````:
    - W makrach ````editor-translator````, ````editor-translator-bibliography```` idź do ````Names````.
 2. <b>W obu tych miejscach wykonaj następujące czynności</b>:
-   - Przesuń zmienną ````Label```` pod zmienną ````Name````,
-   - W zmiennej ````Label```` ustaw ````prefix```` na ````(````, a ````suffix```` na ````) ```` (zamknąć nawias i spacja).
+   - Przesuń zmienną ````Label```` pod zmienną ````Name````, ustaw opcję ````prefix```` na ````(````, a ````suffix```` na ````) ```` (zamknąć nawias i spacja).
 
 ### 7. Lokalizatory (tylko wersja na przypisy wewnątrztekstowe)
 Styl w wersji na przypisy wewnątrztekstowe domyślnie stosuje następującą formę:
@@ -141,7 +140,7 @@ Aby zmienić ````:```` na ````,````:
    - Idź do ````If author -> Group````,
    - Idź do ````Else -> Group````.
 2. <b>W obu tych miejscach wykonaj następujące czynności</b>:
-   - Ustaw ````delimiter```` na ````, ```` (przecinek i spacja).
+   - Ustaw opcję ````delimiter```` na ````, ```` (przecinek i spacja).
 
 Aby zmienić zachowanie skrótów danego typu lokalizatora:
 1. W sekcji ````Macros````:
