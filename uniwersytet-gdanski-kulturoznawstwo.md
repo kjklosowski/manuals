@@ -14,7 +14,7 @@ Dostępne są dwie wersje:
 - <b>Uniwersytet Gdański - Kulturoznawstwo - przypis (Polski)</b> – z przypisami dolnymi, do zastosowania typowego.
 - <b>Uniwersytet Gdański - Kulturoznawstwo - autor, rok (Polski)</b> – z przypisami wewnątrztekstowymi, dodatkowa.
 
-Przypisy wewnątrztekstowe przybierają formę ````(Nazwisko, rok: lokalizator)```` lub ````(tytuł krótki, rok: lokalizator)````, jeśli autora brak.
+Przypisy wewnątrztekstowe przybierają formę ````(Nazwisko, rok: lokalizator)```` lub ````(Tytuł krótki, rok: lokalizator)````, jeśli autora brak.
 
 Przypisy dolne i bibliografia tworzone są na podstawie wymagań kierunkowych.
 
