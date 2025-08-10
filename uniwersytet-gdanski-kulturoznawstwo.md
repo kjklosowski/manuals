@@ -15,7 +15,7 @@ Mogą być one także zaczątkiem innych styli dla polskiej humanistyki współc
 [Wersja na przypis wewnątrztekstowy](https://github.com/citation-style-language/styles/pull/7549) – dodatkowo.
 
 Pod względem tworzenia bibliografii zachowują się one identycznie.
-Przypisy wewnątrztekstowe przybierają formę ````(autor, rok: lokalizator)```` lub ````(tytuł krótki, rok: lokalizator)````, jeśli autora brak.
+Przypisy wewnątrztekstowe przybierają formę ````(Nazwisko, rok: lokalizator)```` lub ````(tytuł krótki, rok: lokalizator)````, jeśli autora brak.
 Przypisy dolne tworzone są na podstawie wymagań kierunkowych.
 
 ## Pobieranie i instrukcja
