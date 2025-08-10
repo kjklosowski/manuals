@@ -9,24 +9,28 @@ Mogą cytować dla gry wideo, strony internetowe, posty w mediach społeczności
 
 Mogą być one także zaczątkiem innych styli dla polskiej humanistyki współczesnej/cyfrowej.
 
-## Wersje i zachowanie
-[Wersja na przypis dolny](https://github.com/citation-style-language/styles/pull/7547) – do zastosowania typowego.
+## Wersje
+Dostępne są dwie wersje:
+- <b>Uniwersytet Gdański - Kulturoznawstwo - przypis (Polski)</b> – z przypisami dolnymi, do zastosowania typowego.
+- <b>Uniwersytet Gdański - Kulturoznawstwo - autor, rok (Polski)</b> – z przypisami wewnątrztekstowymi, dodatkowa.
 
-[Wersja na przypis wewnątrztekstowy](https://github.com/citation-style-language/styles/pull/7549) – dodatkowo.
+Przypisy wewnątrztekstowe przybierają formę ````(Nazwisko, rok: lokalizator)```` lub ````(Tytuł krótki, rok: lokalizator)````, jeśli autora brak.
 
-Pod względem tworzenia bibliografii zachowują się one identycznie.
-Przypisy wewnątrztekstowe przybierają formę ````(Nazwisko, rok: lokalizator)```` lub ````(tytuł krótki, rok: lokalizator)````, jeśli autora brak.
-Przypisy dolne tworzone są na podstawie wymagań kierunkowych.
+Przypisy dolne i bibliografia tworzone są na podstawie wymagań kierunkowych.
 
-## Pobieranie i instrukcja
+Pod względem tworzenia bibliografii obie wersje zachowują się identycznie.
+
+## Instalacja
+Style zostały opublikowane w oficjalnym repozytorium [Citation Style Language](https://github.com/citation-style-language/styles).
+
 Style można wykorzystać w każdym menedżerze bibliografii wspierającym [Citation Style Language](https://citationstyles.org/).
 Autor rekomenduje [Zotero](https://www.zotero.org/).
 
-Ponieważ styl nadal oczekuje na publikację w oficjalnym repozytorium, dostępny jest do pobrania zewnętrznie:
+Aby zainstalować style w programie <b>Zotero</b>:
+1. Idź do ````Edit -> Settings -> Cite -> Get additional styles...````,
+2. W polu ````Title Search```` wpisz ````Uniwersytet Gdański - Kulturoznawstwo```` i zainstaluj interesującą Cię wersję.
 
-[Pobierz](https://1drv.ms/f/c/e41af7a6dec2cedb/EvbSEt05lm5Nr-KWliHWT5QBXWEJ43RmVP_-PJ25ZVqrJA?e=u1yFWq)
-
-Style należy zaimportować w ręcznie. Dla przykładu, w Zotero odbywa się to poprzez wejście w ````Settings -> Cite```` i kliknięcie guzika z +.
+Możesz także przejść bezpośrednio na stronę [Zotero Style Repository](https://www.zotero.org/styles?q=Uniwersytet%20Gda%C5%84ski%20-%20Kulturoznawstwo) i zaimportować styl (jeśli masz zainstalowaną wtyczkę przeglądarkową Zotero) lub zapoznać się z kodem źródłowym.
 
 ## Zgodność i edycja
 Świat przypisów jest nieustandaryzowany, różnorodny, a czasem nawet sprzeczny w ramach jednej instytucji.
@@ -147,5 +151,5 @@ Aby zmienić zachowanie skrótów danego typu lokalizatora:
    - W makrze ````locator```` idź do ````Group````.
 2. <b>Jeśli chcesz całkowicie usunąć skróty danego typu lokalizatora</b>:
    - Usuń cały blok ````Conditional```` przyciskiem ````-````.
-3. <b>Jeśli chcesz dodać skrót także do stron<b>:
+3. <b>Jeśli chcesz dodać skrót także do stron</b>:
    - Wysuń zmienną ````locator (label)```` z bloku ````Conditional```` i umieść ją nad zmianną ````locator (variable)````, a następnie usuń blok ````Conditional```` przyciskiem ````-````.
