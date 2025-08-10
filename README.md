@@ -1,5 +1,5 @@
 ## PL
-To repozytorium zawiera dokumentację i instrukcje do wszystkich stylów CSL mojego autorstwa skierowane do użytkowników.
+To repozytorium zawiera dokumentacje i instrukcje do wszystkich stylów CSL mojego autorstwa skierowane do użytkowników.
 
 Każda dokumentacja zawiera opis, instrukcję użytkowania oraz uwagi.
 
