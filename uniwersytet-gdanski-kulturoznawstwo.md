@@ -147,5 +147,5 @@ Aby zmienić zachowanie skrótów danego typu lokalizatora:
    - W makrze ````locator```` idź do ````Group````.
 2. <b>Jeśli chcesz całkowicie usunąć skróty danego typu lokalizatora</b>:
    - Usuń cały blok ````Conditional```` przyciskiem ````-````.
-3. <b>Jeśli chcesz dodać skrót także do stron<b>:
+3. <b>Jeśli chcesz dodać skrót także do stron</b>:
    - Wysuń zmienną ````locator (label)```` z bloku ````Conditional```` i umieść ją nad zmianną ````locator (variable)````, a następnie usuń blok ````Conditional```` przyciskiem ````-````.
