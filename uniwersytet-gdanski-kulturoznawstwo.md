@@ -48,7 +48,7 @@ Aby rozpocząć modyfikowanie:
 3. Idź do ````Style -> Load style```` i zaimportuj bazowy plik .csl.
 4. W sekcji ````Style info````:
    -  Idź do ````Info````.
-5. Zmień wartości w polach ````Title````, ````ID````, ````self```` (w links). ([Instrukcja](https://github.com/citation-style-language/styles/blob/master/STYLE_REQUIREMENTS.md)).
+5. <B>Zmień wartości w polach</b> ````Title````<b>,</b> ````ID````<b>,</b> ````self```` (w links)<b>, aby uniknąć nadpisywania</b>. (Zob.: [instrukcja tytołowania](https://github.com/citation-style-language/styles/blob/master/STYLE_REQUIREMENTS.md)).
 6. Rozpocznij modyfikowanie.
 
 Zmodyfikowany styl musisz w Zotero zaimportować ręcznie:
