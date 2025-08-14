@@ -32,7 +32,7 @@ Aby zainstalować style w programie <b>Zotero</b>:
 
 Możesz także przejść bezpośrednio na stronę [Zotero Style Repository](https://www.zotero.org/styles?q=Uniwersytet%20Gda%C5%84ski%20-%20Kulturoznawstwo) i zaimportować styl (jeśli masz zainstalowaną wtyczkę przeglądarkową Zotero) lub zapoznać się z kodem źródłowym.
 
-## Zgodność i edycja
+## Zgodność i modyfikowanie
 Świat przypisów jest nieustandaryzowany, różnorodny, a czasem nawet sprzeczny w ramach jednej instytucji.
 Celem autora było zachowanie możliwie największej zgodności. Z racji na czynnik ludzki jest to jednak niemożliwe do osiągnięcia w 100%.
 
@@ -41,7 +41,24 @@ Jeśli jednak kwestie problematyczne pojawią się, należy pamiętać, że wię
 Taka edycja, choć wymaga oczywiście czasu, jest o całe rzędy wielkości bardziej efektywna niż ciągłe modyfikowanie przypisów manualnie.
 
 Do wszelkich modyfikacji autor poleca [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/), który umożliwia edycję w sposób wizualny, minimalizując konieczność własnoręcznego pisania kodu.
-Style wydane są licencji [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). <b>Kluczowe jest respektowanie postanowień tej licencji!</b>
+
+Aby rozpocząć modyfikowanie:
+1. Przygotuj bazowy plik .csl lub [pobierz go stąd](https://1drv.ms/f/c/e41af7a6dec2cedb/EvbSEt05lm5Nr-KWliHWT5QBvb9wFSysdaJNetw9Ucb4QA?e=7Rd8yx).
+2. Wejdź na stronę [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/).
+3. Idź do ````Style -> Load style```` i zaimportuj bazowy plik .csl.
+4. W sekcji ````Style info````:
+   -  Idź do ````Info````.
+5. <b>Zmień wartości w polach</b> ````Title````<b>,</b> ````ID````<b>,</b> ````self```` (w links)<b>, aby uniknąć nadpisywania</b>. (Zob.: [instrukcja tytołowania](https://github.com/citation-style-language/styles/blob/master/STYLE_REQUIREMENTS.md)).
+6. <b>Rozpocznij modyfikowanie</b>.
+
+Zmodyfikowany styl musisz w Zotero zaimportować ręcznie:
+1. Idź do ````Edit -> Settings -> Cite -> +````,
+2. <b>Odszukaj nowo utworzony plik i zaimportuj go</b>.
+
+Zmodyfikowaną wersję możesz także opublikować.
+
+Style wydane są licencji [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+<b>Kluczowe jest respektowanie postanowień tej licencji!</b>
 
 ## Uwagi
 Poniższa lista zawiera elementy, które najczęściej mogą wymagać zmian – wraz z instrukcjami, jak tych zmian dokonać samodzielnie.
@@ -74,7 +91,7 @@ Style korzystają z podstawowej logiki sortowania – najpierw po nazwiskach aut
 
 Może to jednak nieść za sobą nieoczywiste konsekwencje:
 1. Przy cytowaniu filmów:
-   - Ponieważ zmienne ````reżyser```` i ````producent```` nie są tym samym, co zmienna ````autor````, a filmy są często dziełami zbiorowymi, wszystkie one są sortowane po <b>tytułach</b> na samym końcu bibliografii (dopiero po autorach):
+   - Ponieważ zmienne ````director```` i ````producer```` nie są tym samym, co zmienna ````author````, a filmy są często dziełami zbiorowymi, wszystkie one są sortowane po <b>tytułach</b> na samym końcu bibliografii (dopiero po autorach):
       - Jest to jednak problematyczne przy cytowaniu filmów na YouTube, których autorzy są już raczej autorami. Jeśli chcesz, by filmy na YouTube były sortowane razem z autorami, w menedżerze bibliografii określ je jako zwykła strona internetowa, a nie film.
 
 ### 4. Łacińskie i polskie skróty
@@ -132,12 +149,27 @@ Jeśli potrzebujesz tego zachowania:
 2. <b>W obu tych miejscach wykonaj następujące czynności</b>:
    - Przesuń zmienną ````Label```` pod zmienną ````Name````, ustaw opcję ````prefix```` na ````(````, a ````suffix```` na ````) ```` (zamknąć nawias i spacja).
 
-### 7. Lokalizatory (tylko wersja na przypisy wewnątrztekstowe)
+### 7. Daty dostępu przy hiperłączach
+Styl domyślnie stosuje formę zapisu cyfrowego (````link [13.08.2025]````).
+Może pojawić się potrzeba dodania słowa „dostęp” lub rozwinięcia nazwy miesięcy.
+
+Jeśli potrzebujesz dodać słowo „dostęp” (````link [dostęp: 13.08.2025]````):
+1. W sekcji ````Macros````:
+   - W makrze ````url-accessed```` idź do ````Group -> Date````.
+2. <b>Ustaw opcję</b> ````prefix```` <b>na</b> ````[dostęp: ```` ([dostęp: i spacja).
+
+Jeśli potrzebujesz rozwinąć nazwy miesięcy (````link [13 sierpnia 2025]````):
+1. W sekcji ````Macros````:
+   - W makrze ````url-accessed```` idź do ````Group -> Date````.
+2. <b>Ustaw opcję</b> ````form```` <b>na</b> ````text````.
+3. <b>Jeśli potrzebujesz także skrótu „r.”</b> (````link [13 sierpnia 2025 r.]````) – <b>ustaw opcję</b> ````suffix```` <b>na</b> ```` r.]```` (spacja i r.]).
+
+### 8. Lokalizatory (tylko wersja na przypisy wewnątrztekstowe)
 Styl w wersji na przypisy wewnątrztekstowe domyślnie stosuje następującą formę:
 - Jeśli lokalizator jest stroną lub ich zakresem, zastosowana zostanie forma domyślna: ````Nazwisko, rok: X````,
 - Jeśli wybrano inny typ lokalizatora, np. rozdział, dodane zostanie także skrótowe określenie wybranego typu lokalizatora, np: ````Nazwisko, rok: rozdz. X````.
 
-Może pojawić się potrzeba całego szeregu zmian, np. zmiany ````:```` na ````,````, dodanie skrótu ````s. ```` przed stronami lub usunięcie wszystkich skrótów danego typu lokalizatora (np. ````rozdz.````).
+Może pojawić się potrzeba całego szeregu zmian, np. zmiany ````:```` na ````,````, dodanie skrótu ````s. ```` (s. i spacja) przed stronami lub usunięcie wszystkich skrótów danego typu lokalizatora (np. ````rozdz.````).
 
 Aby zmienić ````:```` na ````,````:
 1. W sekcji ````Inline Citations````:
